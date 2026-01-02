@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'bot = arm_3577.order:main',
+            'bot_1 = arm_3577.waypoints:main',
         ],
     },
 )
